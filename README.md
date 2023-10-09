@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://jmeter.apache.org/images/logo.svg" alt="Apache JMeter logo" /></h1>
+# this is an Apache JMeter version that is suitable for testing PolarDB, Oscar, and MogDB
 
 An Open Source Java application designed to measure performance and load test applications.
 
@@ -95,21 +95,22 @@ The following requirements exist for running Apache JMeter:
   A fully compliant Java 8 Runtime Environment is required
   for Apache JMeter to execute. A JDK with `keytool` utility is better suited
   for Recording HTTPS websites.
-
 - Optional jars:
 
   Some jars are not included with JMeter.
   If required, these should be downloaded and placed in the lib directory
+
   - JDBC - available from the database supplier
   - JMS - available from the JMS provider
   - [Bouncy Castle](https://www.bouncycastle.org/) -
-  only needed for SMIME Assertion
-
+    only needed for SMIME Assertion
 - Java Compiler (*OPTIONAL*):
 
   A Java compiler is not needed since the distribution includes a
   precompiled Java binary archive.
+
   > **Note** that a compiler is required to build plugins for Apache JMeter.
+  >
 
 ## Installation Instructions
 
@@ -175,7 +176,7 @@ systemProp.https.proxyPassword=your_password
 
 ### Test builds
 
-JMeter is built using Gradle, and it uses [Gradle's Toolchains for JVM projects](https://docs.gradle.org/current/userguide/toolchains.html)
+JMeter is built using Gradle, and it uses [Gradle&#39;s Toolchains for JVM projects](https://docs.gradle.org/current/userguide/toolchains.html)
 for provisioning JDKs. It means the code would search for the needed JDKs locally, or download them
 if they are not found.
 
@@ -210,7 +211,7 @@ The following command would compile the application and enable you to run `jmete
 from the `bin` directory.
 
 > **Note** that it completely refreshes `lib/` contents,
-so it would remove custom plugins should you have them installed to `lib/`. However, it would keep `lib/ext/` plugins intact.
+> so it would remove custom plugins should you have them installed to `lib/`. However, it would keep `lib/ext/` plugins intact.
 
 ```sh
 ./gradlew createDist
@@ -249,7 +250,7 @@ may have restrictions on the import, possession, use, and/or re-export
 to another country, of encryption software. BEFORE using any encryption
 software, please check your country's laws, regulations and policies
 concerning the import, possession, or use, and re-export of encryption
-software, to see if this is permitted. See <https://www.wassenaar.org/>
+software, to see if this is permitted. See [https://www.wassenaar.org/](https://www.wassenaar.org/)
 for more information.
 
 The U.S. Government Department of Commerce, Bureau of Industry and
@@ -285,6 +286,7 @@ Apache JMeter does not include any implementation of JSSE or JCE.
 
 * Notice for mxparser:
 
-  >  This product includes software developed by the Indiana
-  >  University Extreme! Lab.  For further information please visit
-  >  http://www.extreme.indiana.edu/
+  > This product includes software developed by the Indiana
+  > University Extreme! Lab.  For further information please visit
+  > http://www.extreme.indiana.edu/
+  >
