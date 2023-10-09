@@ -1,4 +1,4 @@
-# This is an Apache JMeter version that is suitable for testing PolarDB, Oscar, and MogDB
+# This version of Apache JMeter is designed for testing PolarDB, Oscar, and MogDB.
 
 An Open Source Java application designed to measure performance and load test applications.
 
