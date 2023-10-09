@@ -1,4 +1,4 @@
-# this is an Apache JMeter version that is suitable for testing PolarDB, Oscar, and MogDB
+# This is an Apache JMeter version that is suitable for testing PolarDB, Oscar, and MogDB
 
 An Open Source Java application designed to measure performance and load test applications.
 
@@ -46,7 +46,7 @@ Ability to load and performance test many applications/server/protocol types:
 ### IDE
 
 Fully featured Test IDE that allows fast Test Plan **recording**
- (from Browsers or native applications), **building** and **debugging**.
+(from Browsers or native applications), **building** and **debugging**.
 
 ### Command Line
 
@@ -95,6 +95,7 @@ The following requirements exist for running Apache JMeter:
   A fully compliant Java 8 Runtime Environment is required
   for Apache JMeter to execute. A JDK with `keytool` utility is better suited
   for Recording HTTPS websites.
+
 - Optional jars:
 
   Some jars are not included with JMeter.
@@ -104,13 +105,13 @@ The following requirements exist for running Apache JMeter:
   - JMS - available from the JMS provider
   - [Bouncy Castle](https://www.bouncycastle.org/) -
     only needed for SMIME Assertion
-- Java Compiler (*OPTIONAL*):
+
+- Java Compiler (_OPTIONAL_):
 
   A Java compiler is not needed since the distribution includes a
   precompiled Java binary archive.
 
   > **Note** that a compiler is required to build plugins for Apache JMeter.
-  >
 
 ## Installation Instructions
 
@@ -284,9 +285,8 @@ Apache JMeter does not include any implementation of JSSE or JCE.
 
 ### Third party notices
 
-* Notice for mxparser:
+- Notice for mxparser:
 
   > This product includes software developed by the Indiana
-  > University Extreme! Lab.  For further information please visit
+  > University Extreme! Lab. For further information please visit
   > http://www.extreme.indiana.edu/
-  >
